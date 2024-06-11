@@ -1,0 +1,80 @@
+header {
+    background-color: #04050C;
+    padding: 5px 20px 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerImg {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-image: url('../../assets/penteado.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    margin-right: 20px;
+}
+
+.menus {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 17px;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.buttonAgenda {
+    background-color: #F0B35B;
+    border: none;
+    width: 10%;
+    min-width: 150px;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.buttonAgenda:hover {
+    opacity: 0.8;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../assets/principal.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main h1, h2{
+    color: white;
+    text-align: center;
+    font-weight: normal;
+}

@@ -1,0 +1,12 @@
+.containerCustom {
+    height: 100vh;
+    background-color: #171728;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.mensagem {
+    text-align: center;
+    color: white;
+}
